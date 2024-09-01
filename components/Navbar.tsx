@@ -25,7 +25,7 @@ export default function Navbar() {
                 <Link href="/" className="p-2 hover:bg-six w-full text-center border-b-2 border-six sm:border-none">Home</Link>
                 <Link href="/about" className="p-2 hover:bg-six w-full text-center border-b-2 border-six sm:border-none">About</Link>
                 <Link href="/contact" className="p-2 hover:bg-six w-full text-center border-b-2 border-six sm:border-none">Contact</Link>
-                <Link href="/projects" className="p-2 hover:bg-six w-full text-center border-b-2 border-six sm:border-none">Projects</Link>
+                <Link href="/projects" className="p-2 hover:bg-six w-full text-center sm:border-none">Projects</Link>
             </div>
         </nav>
     )

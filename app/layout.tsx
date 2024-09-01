@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], weight: '300' });
 
@@ -19,8 +20,9 @@ export default function RootLayout({
   return (
       <html lang="en">
           <body className={`${jetbrains.className} transition-all duration-300 bg-one text-eight`}>
-              <Navbar />
-              {children}
+                <Navbar />
+                    {children}
+                <Footer />
           </body>
       </html>
   );
